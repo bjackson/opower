@@ -413,7 +413,7 @@ class Opower:
 
         max_request_days = None
         if aggregate_type == AggregateType.DAY:
-            max_request_days = 363
+            max_request_days = 45
         elif aggregate_type == AggregateType.HOUR:
             max_request_days = 26
 
